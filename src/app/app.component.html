@@ -1,0 +1,5 @@
+<h1>Angular cache</h1>
+<p>API request returning a response of 400 musician Names</p>
+<div *ngFor="let collection of collections | async">
+  {{ collection.basic_information.artists[0].name }} 
+</div>
